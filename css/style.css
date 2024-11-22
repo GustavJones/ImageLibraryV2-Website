@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Stencil";
+  src: url(/font.ttf);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --main-colour: #000a21;
+  --background-colour: #82b0d6;
+  --border-colour: #253a6d;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.custom-font {
+  font-family: "Stencil";
+}
+
+.bold-font {
+  font-weight: 900;
+}
+
+.light-font {
+  color: white;
+}
+
+.dark-font {
+  color: var(--main-colour);
+}
+
+.navigation-bar {
+  display: flex;
+  background-color: var(--main-colour);
+  justify-content: space-between;
+  width: 100%;
+  flex: 0 1 auto;
+}
+
+.navigation-button {
+  margin: 14px;
+}
+
+.link-font:hover {
+  color: #aaaaaa;
+  font-weight: 400;
+}
+
+.navigation-home-button {
+  margin-right: auto;
+}
+
+.navigation-library-button {
+  margin-left: auto;
+}
+
+.navigation-link {
+  text-decoration: none;
+}

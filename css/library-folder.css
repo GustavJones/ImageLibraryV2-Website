@@ -1,0 +1,48 @@
+body {
+  background-color: var(--background-colour);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.download-zip-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: max-content;
+  border-radius: 10px;
+  border: 2px solid var(--border-colour);
+  padding: 2vh 2vw;
+  margin: 2vh 2vw;
+  background-color: var(--main-colour);
+}
+
+.download-zip-button {
+  background-color: white;
+  border-radius: 3px;
+  border: none;
+  padding: 1vh 1vw;
+}
+
+.download-zip-button:hover {
+  background-color: var(--border-colour);
+}
+
+.image-tile {
+  max-width: 80vw;
+  border: 5px solid var(--main-colour);
+  margin: 1vh 1vw;
+}
+
+.image-tile:hover {
+  opacity: 0.9;
+}

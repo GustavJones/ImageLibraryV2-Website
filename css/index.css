@@ -1,0 +1,48 @@
+body {
+  background-image: url(/Background.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100svh;
+}
+
+.main-content {
+  flex-direction: column;
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.information-text {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.information-title {
+  margin: 2px;
+  text-align: center;
+}
+
+.information-description {
+  text-align: center;
+  margin: 1px;
+}
+
+.goto-library-button {
+  background-color: var(--main-colour);
+  margin-top: 25px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 1px 20px;
+  border-radius: 10px;
+  border-style: groove;
+}
+
+.goto-library-link {
+  text-decoration: none;
+}
